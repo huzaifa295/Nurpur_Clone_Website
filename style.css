@@ -67,7 +67,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     position: fixed;
     top: 88%;
     border-radius: 5px;
@@ -80,7 +79,8 @@ body{
 .title1{
     height: 100px;
     width: 140px;
-    margin: 30px auto;
+    margin: auto;
+    margin-top: 80px;
     background-image: url(./assets/images/background_title.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -122,7 +122,9 @@ span p{
 .title2{
     height: 100px;
     width: 140px;
-    margin: 30px auto;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
     background-image: url(./assets/images/background_title.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -335,7 +337,8 @@ span p{
 .title4{
     height: 100px;
     width: 180px;
-    margin: 30px auto;
+    margin: 0px auto;
+    margin-top: 80px;
     background-image: url(./assets/images/background_title.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -352,11 +355,22 @@ span p{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+.slider_svg1{
+    position: absolute;
+    top: 39%;
+    left: 53%;
+}
+.slider_svg2{
+    position: absolute;
+    top: 39%;
+    left: 44.5%;
 }
 .title3{
     height: 100px;
     width: 140px;
-    margin: 30px auto;
+    margin: 50px auto;
     background-image: url(./assets/images/background_title.webp);
     background-repeat: no-repeat;
     background-size: contain;
